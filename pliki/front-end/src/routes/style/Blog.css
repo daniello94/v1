@@ -1,0 +1,89 @@
+.style-messages{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #F0fff0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    opacity: 0.9;
+}
+.message-name{
+    background-color: #008000;
+    color: white;
+    padding: 5px 100px;
+    border: 1px solid black;
+    border-radius: 12px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   opacity: 0.9;
+}
+.message-content{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    width: 70%;
+}
+.style-send-messages{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    opacity: 0.9;
+}
+.btn-chat{
+    padding: 10px;
+    background-color: #008000;
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    transition: .7s;
+    opacity: 0.9;
+   
+}
+.btn-chat:hover{
+    background-color: #F0fff0;
+    color: black;
+    opacity: 0.9;
+}
+.input-chat{
+    width: 700px;
+    transition: 0.6s;
+    height: 220px;
+
+}
+.input-chat:focus{
+    background-color: #F0fff0;
+}
+.container{
+    position: static;
+}
+.pos{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+.author-title{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 14px;
+}
+.input-blog{
+  margin-left: 30px;
+    width: 600px;
+    margin-bottom: 6px;
+    font-size: 15px;
+    transition: .7s;
+}
+.input-blog:focus{
+    background-color: #F0fff0;
+}
+.datum-blog{
+    position: absolute;
+    font-size: 12px;
+    right: 0;
+    top: 0;
+}

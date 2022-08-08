@@ -1,0 +1,28 @@
+nav {
+  font-size: 25px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-left: 30px;
+  text-transform: none;
+  list-style-type: none;
+  color: black;
+
+}
+
+nav ul li .ul-itm {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  transition: 0.7s;
+}
+
+nav ul li .ul-itm:hover {
+  background-color: #008000;
+  color: white;
+}

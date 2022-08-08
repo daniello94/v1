@@ -1,0 +1,16 @@
+.label-grades{
+    margin-left: auto;
+   margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 10px;
+
+}
+.label-grades input{
+    height: 40px;
+}
+.textarea-grades{
+    width: 50%;
+    height: 120px;
+}

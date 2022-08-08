@@ -1,0 +1,51 @@
+form{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    opacity: 0.9;
+
+}
+form label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+form input,select{
+    margin-top: 10px;
+    padding: 20px;
+}
+.form{
+    text-align: center;
+}
+.btn-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    background-color: #008000;
+    color: white;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 15px;
+    transition: .7s;
+    margin-top: 10px;
+}
+.btn-1:hover{
+    background-color: #F0fff0;
+    color: black;
+}
+.error{
+    color: red;
+}
+.error span{
+    color: green;
+}
+.error-1{
+    border: 1px solid red;
+    background-color: rgba(224, 163, 163, 0.888)
+}
+.student-add-content{
+    text-align: center;
+   
+}
